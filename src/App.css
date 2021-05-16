@@ -1,0 +1,24 @@
+body {
+  background-color: rgba(170, 221, 187, 0.33);
+}
+
+.App {
+  background-color: white;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.branch {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.branch span {
+    margin-left: 5px;
+}
+
+.triangle-rotate {
+  transform: rotate(-90deg);
+}
